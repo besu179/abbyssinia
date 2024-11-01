@@ -1,0 +1,99 @@
+body{
+    padding-inline: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+.header_bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    align-items:first baseline;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+a {
+    font-size: smaller;
+}
+
+hr {   
+    border: none; /* Remove default border */
+    height: 4px; /* Set the thickness */
+    background-color: rgb(206, 206, 34); /* Set the color */
+    margin: 10px 0; /* Space above and below the line */
+}
+h3 {
+    color: rgb(206, 206, 19);
+    align-self: center;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.description{
+    padding-inline: 20px;
+}
+button {
+    background-color: rgb(212, 200, 24);
+    border-color: rgb(255, 255, 255);
+    height: min-content;
+}
+.vmv{
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 20px;
+}
+.c{
+    padding-inline: 30px;
+}
+#hh{
+    color: white;
+}
+.f{
+    color: black;
+}
+.community{
+    display: flex;
+    padding-inline: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.d{
+    color: rgb(212, 200, 24);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(104, 58, 58);
+    padding-inline: 10px;
+}
+#y{
+    color: rgb(212, 200, 24);
+    font-weight: bold;
+}
+.sen{
+    display: flex;
+    align-items: flex-start;
+    padding-inline: 20px;
+    gap: 40px;
+}
+.administrators{
+    display: flex;
+    justify-content: space-between;
+}
+.subd{
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: black;
+}
